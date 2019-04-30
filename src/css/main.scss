@@ -1,0 +1,25 @@
+$primary: #363636;
+$secondary:	#d05723;
+$tertiary:#5c5c5c; 
+$quaternary:#a5a5a5;
+$quinary: #d8d8d8;
+
+
+
+//@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "../../node_modules/materialize-css/sass/materialize";
+@import '../../node_modules/material-design-icons/iconfont/material-icons';
+
+html {
+    min-height: 100%;
+}
+
+body {
+
+}
+
+h1 {
+    color:$primary;
+}
+
