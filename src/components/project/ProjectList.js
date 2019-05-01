@@ -6,7 +6,7 @@ import ProjectSummary from './ProjectSummary';
 const ProjectList = ({ projects }) => {
     return (
         <div className="project-list section">
-            {projects.map(project => <ProjectSummary key={project.id} project={project} />)}
+            {projects && projects.map(project => <ProjectSummary key={project.id} project={project} />)}
 
         </div>
     );
